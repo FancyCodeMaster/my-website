@@ -15,4 +15,86 @@ html , body {
 }
 
 
+/*-------------------------*/
+/*-----HEADER--------------*/
+/*--------------------------*/
 
+header {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8) , rgba(0,0,0,0.8)), url(img/main-back.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;    
+    position: relative;
+}
+
+.image-div {
+    height: 440px;
+    width: 440px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: relative;
+    top: 20%;
+    left: 35%;
+    display: none;
+}
+
+.image {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.image-hover-div {
+    height: 500px;
+    width: 400px;
+    background-color: #fff;
+    position: absolute;
+    top: 18%;
+    left: 35%;
+}
+
+
+.image-hover-div .img-div img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.img-div {
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.bio-div {
+    height: 250px;
+    width: 100%;
+    padding: 10px;
+    font-size: 90%;
+    padding-top: 60px;
+
+}
+
+.bio-div div {
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+.social-div {
+    height: 150px;
+    width: 100%;
+}
+
+.social-div div a{
+    text-decoration: none;
+}
