@@ -69,18 +69,20 @@ header {
 }
 
 .img-div {
-    height: 100px;
+    height: 120px;
     width: 100%;
     text-align: center;
     padding-top: 10px;
+    border-bottom: 1px solid #f0f0f0;
 }
 
 .bio-div {
-    height: 250px;
+    height: 230px;
     width: 100%;
     padding: 10px;
     font-size: 90%;
     padding-top: 60px;
+    border-bottom: 1px solid #f0f0f0;
 
 }
 
@@ -93,6 +95,8 @@ header {
 .social-div {
     height: 150px;
     width: 100%;
+    text-align: center;
+    padding-top: 20px;
 }
 
 .social-div div a{
